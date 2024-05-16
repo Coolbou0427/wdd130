@@ -1,0 +1,50 @@
+* {
+    background-color: #56A0D4;
+    font-family: sans-serif;
+}
+main img {
+    width: 20%;
+    height: auto;
+    margin-bottom: 2%;
+}
+main {
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
+main p {
+    text-align: left;
+}
+#quote {
+    text-align: center;
+    color: white;
+    max-width: 25%;
+    margin: 0 auto;
+}
+#numbers {
+    font-weight: bold;
+    text-align: left;
+}
+#quote2 {
+    color: white;
+    max-width: 25%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 36px;
+}
+#list {
+    max-width: 25%;
+    display: block;
+    margin: 0 auto;
+}
+footer {
+    font-weight: bold;
+}
+h1 {
+    color: white;
+}
+h1:hover {
+    color: black;
+}
