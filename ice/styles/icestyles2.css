@@ -1,0 +1,43 @@
+body {
+    margin: 0 0 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px; /* Set your desired max width */
+    padding: 0 20px; /* Optional: add padding for spacing */
+}
+
+#top {
+    width: 100%;
+}
+
+#top img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Maintains aspect ratio */
+}
+
+#bottom {
+    text-align: center;
+    background-color: gray;
+    width: 100%;
+    padding: 20px 0; /* Optional: add padding for spacing */
+}
+
+#bottom img {
+    width: 10%;
+    border-radius: 50%; /* Existing border to make the image circular */
+    box-shadow: 0 0 0 10px rgb(79, 79, 79); /* Secondary border */
+    margin: 0 10px; /* Add some space between the images */
+    margin: 0px 50px;
+}
+
