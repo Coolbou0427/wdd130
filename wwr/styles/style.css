@@ -242,6 +242,10 @@ footer a:hover {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px var(--accent2-color);
 }
+#blog-title {
+    text-align: center;
+    font-size: 36px;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
